@@ -1,12 +1,12 @@
 <template>
   <div id="jokes">
     <h3>{{title}}</h3>
-    <DisplayMessage />
+    <DisplayJoke />
   </div>
 </template>
 
 <script>
-import DisplayMessage from './components/DisplayMessage.vue';
+import DisplayJoke from './components/DisplayJoke.vue';
 
 export default {
   name: 'App',
@@ -16,7 +16,7 @@ export default {
     }
   },
   components: {
-    DisplayMessage
+    DisplayJoke
   }
 }
 </script>

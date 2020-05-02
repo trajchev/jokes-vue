@@ -17,7 +17,7 @@
 import axios from "axios"
 
 export default {
-  name: 'DisplayMessage',
+  name: 'DisplayJoke',
   data: function() {
       return {
           joke: null,
